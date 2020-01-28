@@ -9,9 +9,48 @@
 
   --font-primary: Georgia, serif;
   --font-secondary: "Raleway", sans-serif;
-
 }
 
 html {
   font-family: var(--font-primary);
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-style: normal;
+  font-weight: 800;
+}
+
+a {
+  color: var(--color-accent);
+}
+
+ul, ol, dl {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-weight: 600;
+  font-style: normal;
+}
+
+blockquote {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+  font-style: normal;
+  font-weight: 600;
+}
+
+cite {
+  font-family: var(--font-primary);
+  font-style: italic;
+  font-weight: 500;
+}
+
+mark {
+  background-color: var(--color-secondary);
+}
+
+em, strong, del, ins, abbr, dfn, i, b, q, s, u {
+
 }
