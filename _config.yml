@@ -2,4 +2,21 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
-  font_url: https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Raleway:400,700&display=swap">
+  title: "Shelly"
+  description: |
+    A small local shell company that sells shells really well. She sells sea shells by the sea shore!
+  font_url: https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Raleway:400,700&display=swap"
+  colors:
+    background: "--color-neutral-beige"
+    accent: "--color-primary"
+    patterns:
+      brand.logos: "--color-secondary"
+  rationales:
+    typefaces.primary: |
+      Georgia was selected because it is a common and readable font that will be used for most body content.
+    typefaces.secondary: |
+      Raleway is a sleek, readable sans-seirf typeface that will be used for more headings, buttons, etc.
+    colors.primary: |
+      The primary colors represent ocean life and water using teal. It is easy on the eyes and calming to create a more serene shopping experience.
+    colors.secondary: |
+      The secondary colors are lighter and more neutral to accent the primary colors. These are mostly lighter shades of teal, beige, blue, and orange for more contrast.
