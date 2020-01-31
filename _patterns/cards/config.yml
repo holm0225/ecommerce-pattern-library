@@ -1,0 +1,16 @@
+patterns:
+  image:
+    width: 400
+    fields:
+      - name: title
+        type: string
+        example: "Conch"
+      - name: details
+        type: string
+        example: "The coveted conch!"
+      - name: image
+        type: image
+        example: "conch.jpg"
+      - name: button_text
+        type: string
+        example: "Get this Conch"

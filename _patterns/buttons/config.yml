@@ -1,0 +1,17 @@
+title: "All the Buttons!"
+description: |
+  Lots of different buttons styles, each for different reasons.
+
+patterns:
+  basic:
+    title: "Basic button"
+    description: |
+      The basic button should be used in almost all situations.
+    fields:
+      - name: text
+        type: string
+        example: "Get this Clam"
+  ghost:
+    description: |
+      The ghost button should only be used on banners.
+    width: 320
