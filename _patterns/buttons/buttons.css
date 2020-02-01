@@ -70,3 +70,16 @@
   border: none;
   color: var(--color-neutral-beige);
 }
+
+.btn-icon {
+  background-color: var(--color-neutral-beige);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  transition: background-color .3s linear, color .3s linear;
+}
+
+.btn-icon:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-neutral-beige);
+}
