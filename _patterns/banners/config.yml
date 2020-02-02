@@ -1,5 +1,5 @@
 patterns:
-  banner:
+  top:
     width: 400
     fields:
       - name: title
