@@ -34,16 +34,13 @@ patterns:
     fields:
       - name: title
         type: string
-        example: "Conch"
+        example: "Limpet"
       - name: details
         type: string
-        example: "The coveted conch!"
-      - name: image
-        type: image
-        example: "conch.jpg"
+        example: "Mayhaps you'll find a pearl?"
       - name: button_text
         type: string
-        example: "Get this Conch"
+        example: "Browse Shells"
   products:
     width: 400
     fields:

@@ -1,15 +1,12 @@
 <div class="card card-icon chop">
-  <img class="img-flex" src="/images/shells/{{include.image}}" alt="">
+  <div class="island-1-2">
+    <i class="icon i-64">
+      <svg><use xlink:href="/images/icons.svg#shell-fan-icon"></use></svg>
+    </i>
+  </div>
   <div class="island-1-2">
     <h2>{{include.title}}</h2>
     <p>{{include.details}}</p>
     {% pattern buttons/basic text=include.button_text %}
   </div>
 </div>
-
-<a class="block btn" href="#">
-<i class="icon i-32">
-  <svg><use xlink:href="/images/icons.svg#shell-round-icon"></use></svg>
-</i>
-   <span class="valign-middle inline-block icon-text gutter-1-4">Nautilus Shells</span>
-</a>

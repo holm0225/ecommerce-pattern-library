@@ -1,8 +1,14 @@
 <div class="banner chop">
   <img class="img-flex" src="/images/shells/{{include.image}}" alt="">
-  <div class="island-1-2">
-    <h2>{{include.title}}</h2>
+</div>
+
+<div class="banner-content grid grid-middle wrapper island-1-2">
+  <div class="unit xs-1 s-1 m-1-2 l-1-2">
+    <h1>{{include.title}}</h1>
     <p>{{include.details}}</p>
+  </div>
+
+  <div class="block mega unit xs-1 s-1 m-1-2 l-1-2">
     {% pattern buttons/basic text=include.button_text %}
   </div>
 </div>
