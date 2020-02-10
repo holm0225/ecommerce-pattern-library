@@ -1,7 +1,16 @@
 .banner {
-  background-color: var(--color-primary);
-  border-color: var(--color-primary);
-  color: var(--color-neutral-beige);
-  max-height: 500px;
-  overflow: hidden;
+  max-height: 560px;
+  max-width: 1000px;
+}
+
+.call-to-action {
+}
+
+.featured {
+}
+
+.hero {
+}
+
+.icon {
 }

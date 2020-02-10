@@ -1,39 +1,21 @@
-title: "Buttons!"
+title: "Banners"
 description: |
-  Buttons should be used in situations where a dramatic, obvious action is required. Try not to over use buttons because they should be the primary call-to-action for a screen.
+  Banners should be used on the home page, landing pages, and call-to-actions.
 
 patterns:
-  top:
-    title: "Ghost"
+  hero:
+    title: "Hero"
     description: |
-      The ghost button is specifically for banners, where it will be placed in front of busy images.
-    fields:
-      - name: title
-        type: string
-        example: "Conch"
-      - name: details
-        type: string
-        example: "The coveted conch!"
-      - name: image
-        type: image
-        example: "conch.jpg"
-      - name: button_text
-        type: string
-        example: "Get this Conch"
+      The hero banner is used on the home page.
   icon:
-    title: "Ghost"
+    title: "Icon"
     description: |
-      The ghost button is specifically for banners, where it will be placed in front of busy images.
-    fields:
-      - name: title
-        type: string
-        example: "Conch"
-      - name: details
-        type: string
-        example: "The coveted conch!"
-      - name: image
-        type: image
-        example: "conch.jpg"
-      - name: button_text
-        type: string
-        example: "Get this Conch"
+      The icon banner is used for some call-to-actions.
+  featured:
+    title: "Featured"
+    description: |
+      The featured banner is used to showcase new and popular items.
+  call-to-action:
+    title: "Call-to-action"
+    description: |
+      The call-to-action banner is used for call-to-actions.
