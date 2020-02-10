@@ -21,77 +21,64 @@ patterns:
       - name: text
         type: string
         example: "Get this Clam"
-
-
-
-
-
   basic-cart:
-    title: "Ghost"
+    title: "Basic-cart"
     description: |
-      The ghost button is specifically for banners, where it will be placed in front of busy images.
+      This button is specifically for the add-to-cart button feature.
     background: "--color-primary-light"
     fields:
       - name: text
         type: string
-        example: "Get this Clam"
-
+        example: "Add to cart"
   borderless:
-    title: "Ghost"
+    title: "Borderless"
     description: |
-      The ghost button is specifically for banners, where it will be placed in front of busy images.
+      This button is a basic button with no borders.
     background: "--color-primary-light"
     fields:
       - name: text
         type: string
         example: "Get this Clam"
-
   dark:
-    title: "Ghost"
+    title: "Dark"
     description: |
-      The ghost button is specifically for banners, where it will be placed in front of busy images.
+      This button is dark and used with lighter backgrounds.
     background: "--color-primary-light"
     fields:
       - name: text
         type: string
         example: "Get this Clam"
-
-
   ghost-cart:
-    title: "Ghost"
+    title: "Ghost-cart"
     description: |
-      The ghost button is specifically for banners, where it will be placed in front of busy images.
+      This button is specifically for the add-to-cart button feature when placed over an image.
     background: "--color-primary-light"
     fields:
       - name: text
         type: string
-        example: "Get this Clam"
-
-
+        example: "Add to cart"
   light:
-    title: "Ghost"
+    title: "Light"
     description: |
-      The ghost button is specifically for banners, where it will be placed in front of busy images.
+      This button is light and used with darker backgrounds.
     background: "--color-primary-light"
     fields:
       - name: text
         type: string
         example: "Get this Clam"
-
   shell:
-    title: "Ghost"
+    title: "Shell"
     description: |
-      The ghost button is specifically for banners, where it will be placed in front of busy images.
+      This is the shell icon button and used in special places.
     background: "--color-primary-light"
     fields:
       - name: text
         type: string
         example: "Get this Clam"
-
   special:
-    title: "Ghost"
+    title: "Special"
     description: |
-      The ghost button is specifically for banners, where it will be placed in front of busy images.
+      The special button is used in special places, usually for contrast or special actions.
     background: "--color-primary-light"
     fields:
       - name: text

@@ -1,92 +1,30 @@
-title: "Buttons!"
+title: "Cards"
 description: |
-  Buttons should be used in situations where a dramatic, obvious action is required. Try not to over use buttons because they should be the primary call-to-action for a screen.
+  Cards are used to display products and images.
 
 patterns:
-  image:
+  basic:
     title: "Basic"
     description: |
-      Default to using the basic button. It should always be used in front of light backgrounds.
+      The basic card is used in most situations.
     width: 400
-    fields:
-      - name: title
-        type: string
-        example: "Conch"
-      - name: details
-        type: string
-        example: "The coveted conch!"
-      - name: image
-        type: image
-        example: "conch.jpg"
-      - name: button_text
-        type: string
-        example: "Get this Conch"
   featured:
-    title: "Basic"
+    title: "Featured"
     description: |
-      Default to using the basic button. It should always be used in front of light backgrounds.
+      The featured card is used for popular products or products that are on sale.
     width: 500
-    fields:
-      - name: title
-        type: string
-        example: "Conch"
-      - name: details
-        type: string
-        example: "The coveted conch!"
-      - name: image
-        type: image
-        example: "conch.jpg"
-      - name: button_text
-        type: string
-        example: "Get this Conch"
   icon:
-    title: "Basic"
+    title: "Icon"
     description: |
-      Default to using the basic button. It should always be used in front of light backgrounds.
+      The icon card is used in special situations, possibly as headers for following cards.
     width: 400
-    fields:
-      - name: title
-        type: string
-        example: "Limpet"
-      - name: details
-        type: string
-        example: "Mayhaps you'll find a pearl?"
-      - name: button_text
-        type: string
-        example: "Browse Shells"
   products:
-    title: "Basic"
+    title: "Products"
     description: |
-      Default to using the basic button. It should always be used in front of light backgrounds.
+      The product card is used to display most products using a grid system.
     width: 400
-    fields:
-      - name: title
-        type: string
-        example: "Conch"
-      - name: details
-        type: string
-        example: "The coveted conch!"
-      - name: image
-        type: image
-        example: "conch.jpg"
-      - name: button_text
-        type: string
-        example: "Get this Conch"
   related:
-    title: "Basic"
+    title: "Related"
     description: |
-      Default to using the basic button. It should always be used in front of light backgrounds.
+      The related card is used for displaying related products.
     width: 400
-    fields:
-      - name: title
-        type: string
-        example: "Conch"
-      - name: details
-        type: string
-        example: "The coveted conch!"
-      - name: image
-        type: image
-        example: "conch.jpg"
-      - name: button_text
-        type: string
-        example: "Get this Conch"
