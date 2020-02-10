@@ -21,3 +21,79 @@ patterns:
       - name: text
         type: string
         example: "Get this Clam"
+
+
+
+
+
+  basic-cart:
+    title: "Ghost"
+    description: |
+      The ghost button is specifically for banners, where it will be placed in front of busy images.
+    background: "--color-primary-light"
+    fields:
+      - name: text
+        type: string
+        example: "Get this Clam"
+
+  borderless:
+    title: "Ghost"
+    description: |
+      The ghost button is specifically for banners, where it will be placed in front of busy images.
+    background: "--color-primary-light"
+    fields:
+      - name: text
+        type: string
+        example: "Get this Clam"
+
+  dark:
+    title: "Ghost"
+    description: |
+      The ghost button is specifically for banners, where it will be placed in front of busy images.
+    background: "--color-primary-light"
+    fields:
+      - name: text
+        type: string
+        example: "Get this Clam"
+
+
+  ghost-cart:
+    title: "Ghost"
+    description: |
+      The ghost button is specifically for banners, where it will be placed in front of busy images.
+    background: "--color-primary-light"
+    fields:
+      - name: text
+        type: string
+        example: "Get this Clam"
+
+
+  light:
+    title: "Ghost"
+    description: |
+      The ghost button is specifically for banners, where it will be placed in front of busy images.
+    background: "--color-primary-light"
+    fields:
+      - name: text
+        type: string
+        example: "Get this Clam"
+
+  shell:
+    title: "Ghost"
+    description: |
+      The ghost button is specifically for banners, where it will be placed in front of busy images.
+    background: "--color-primary-light"
+    fields:
+      - name: text
+        type: string
+        example: "Get this Clam"
+
+  special:
+    title: "Ghost"
+    description: |
+      The ghost button is specifically for banners, where it will be placed in front of busy images.
+    background: "--color-primary-light"
+    fields:
+      - name: text
+        type: string
+        example: "Get this Clam"

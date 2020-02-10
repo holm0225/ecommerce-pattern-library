@@ -1,5 +1,12 @@
+title: "Buttons!"
+description: |
+  Buttons should be used in situations where a dramatic, obvious action is required. Try not to over use buttons because they should be the primary call-to-action for a screen.
+
 patterns:
   image:
+    title: "Basic"
+    description: |
+      Default to using the basic button. It should always be used in front of light backgrounds.
     width: 400
     fields:
       - name: title
@@ -15,6 +22,9 @@ patterns:
         type: string
         example: "Get this Conch"
   featured:
+    title: "Basic"
+    description: |
+      Default to using the basic button. It should always be used in front of light backgrounds.
     width: 500
     fields:
       - name: title
@@ -30,6 +40,9 @@ patterns:
         type: string
         example: "Get this Conch"
   icon:
+    title: "Basic"
+    description: |
+      Default to using the basic button. It should always be used in front of light backgrounds.
     width: 400
     fields:
       - name: title
@@ -42,6 +55,9 @@ patterns:
         type: string
         example: "Browse Shells"
   products:
+    title: "Basic"
+    description: |
+      Default to using the basic button. It should always be used in front of light backgrounds.
     width: 400
     fields:
       - name: title
@@ -57,6 +73,9 @@ patterns:
         type: string
         example: "Get this Conch"
   related:
+    title: "Basic"
+    description: |
+      Default to using the basic button. It should always be used in front of light backgrounds.
     width: 400
     fields:
       - name: title
