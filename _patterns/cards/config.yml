@@ -7,24 +7,91 @@ patterns:
     title: "Basic"
     description: |
       The basic card is used in most situations.
+    padding: 2em
     width: 400
+    fields:
+      - name: image
+        type: image
+        example: "conch.jpg"
+      - name: title
+        type: string
+        example: "Conch Shell"
+      - name: details
+        type: string
+        example: "The coveted conch... omg."
+      - name: price
+        type: value
+        example: "$12.99"
+
   featured:
     title: "Featured"
     description: |
       The featured card is used for popular products or products that are on sale.
+    padding: 2em
     width: 500
+    fields:
+      - name: image
+        type: image
+        example: "conch.jpg"
+      - name: title
+        type: string
+        example: "Conch Shell"
+      - name: details
+        type: string
+        example: "The coveted conch... omg."
+      - name: price
+        type: value
+        example: "$12.99"
+
   icon:
     title: "Icon"
     description: |
       The icon card is used in special situations, possibly as headers for following cards.
     width: 400
+    fields:
+      - name: title
+        type: string
+        example: "Shells!"
+      - name: details
+        type: string
+        example: "The coveted conch... omg."
+
   products:
     title: "Products"
     description: |
       The product card is used to display most products using a grid system.
+    padding: 2em
     width: 400
+    fields:
+      - name: image
+        type: image
+        example: "conch.jpg"
+      - name: title
+        type: string
+        example: "Conch Shell"
+      - name: details
+        type: string
+        example: "The coveted conch... omg."
+      - name: price
+        type: value
+        example: "$12.99"
+
   related:
     title: "Related"
     description: |
       The related card is used for displaying related products.
+    padding: 2em
     width: 400
+    fields:
+      - name: image
+        type: image
+        example: "conch.jpg"
+      - name: title
+        type: string
+        example: "Conch Shell"
+      - name: details
+        type: string
+        example: "The coveted conch... omg."
+      - name: price
+        type: value
+        example: "$12.99"
