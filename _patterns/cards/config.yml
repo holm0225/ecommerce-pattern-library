@@ -51,7 +51,10 @@ patterns:
         example: "Shells!"
       - name: details
         type: string
-        example: "The coveted conch... omg."
+        example: "Fan Shells"
+      - name: image
+        type: image
+        example: "icons.svg#shell-fan-icon"
 
   products:
     title: "Products"
