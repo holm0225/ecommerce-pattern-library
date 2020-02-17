@@ -1,15 +1,31 @@
 .banner {
-  max-height: 560px;
-  max-width: 1000px;
+  max-height: 500px;
 }
 
 .call-to-action {
+  background-color: var(--color-primary);
+  color: var(--color-neutral-beige);
 }
 
 .featured {
+  background-color: var(--color-accent);
+  color: var(--color-neutral-beige);
 }
 
-.hero {
+.featured:hover {
+  background-color: var(--color-third);
+  color: var(--color-neutral-beige);
+}
+
+.hero-banner {
+  color: var(--color-neutral-beige);
+}
+
+.hero-content {
+  color: var(--color-neutral-beige);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 .banner-icon {

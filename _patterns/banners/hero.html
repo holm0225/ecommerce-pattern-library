@@ -1,8 +1,15 @@
-<div>
-<img class="banner hero absolute" src="/images/banners/banner-1.jpg" alt="">
-  <div class="relative island">
-    <h1 class="nina">Hell on shells</h1>
-    <p>Buy these MF shells yo!</p>
-    {% pattern buttons/ghost text="Get this Clam" %}
+<section class="hero-banner chop relative push">
+  <div class="hero-image embed embed-3by1">
+    <img class="img-flex embed-item" src="/images/banners/{{include.image}}" alt="">
+  </div>
+
+  <div class="hero-content island center-text">
+    <div class="wrapper gutter-1-2 pad-t pad-b">
+      <div>
+        <h1 class="nina push-0 pad-b-1-2">{{include.title}}</h1>
+        <p class="mega push-0 pad-b-1-2">{{include.details}}</p>
+      </div>
+
   </div>
 </div>
+</section>

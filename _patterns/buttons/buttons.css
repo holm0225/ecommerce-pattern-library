@@ -71,40 +71,15 @@
   color: var(--color-neutral-beige);
 }
 
-.btn-shell {
+.btn-icon{
   background-color: var(--color-neutral-beige);
   border-color: var(--color-primary);
   color: var(--color-primary);
   transition: background-color .3s linear, color .3s linear;
 }
 
-.btn-shell:hover {
+.btn-icon:hover {
   background-color: var(--color-primary);
   border-color: var(--color-primary);
   color: var(--color-neutral-beige);
-}
-
-.btn-cart{
-  background-color: var(--color-neutral-beige);
-  border-color: var(--color-primary);
-  color: var(--color-primary);
-  transition: background-color .3s linear, color .3s linear;
-}
-
-.btn-cart:hover {
-  background-color: var(--color-primary);
-  border-color: var(--color-primary);
-  color: var(--color-neutral-beige);
-}
-
-.btn-ghost-cart {
-  background-color: transparent;
-  color: var(--color-primary);
-  border-color: transparent;
-}
-
-.btn-ghost-cart:hover {
-  color: var(--color-primary);
-  background-color: transparent;
-  border-color: var(--color-primary);
 }

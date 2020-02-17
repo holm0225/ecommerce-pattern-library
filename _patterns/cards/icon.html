@@ -1,12 +1,13 @@
 <div class="card card-icon chop">
+  <i class="icon i-64">
+    <svg><use xlink:href="/images/{{include.image}}" /></svg>
+  </i>
+
   <div class="island-1-2">
-    <i class="icon i-64">
-      <svg><use xlink:href="/images/icons.svg#shell-fan-icon"></use></svg>
-    </i>
-  </div>
-  <div class="island-1-2">
-    <h2>{{include.title}}</h2>
-    <p>{{include.details}}</p>
-    {% pattern buttons/basic text=include.button_text %}
+    <h2 class="push-1-4">{{include.title}}</h2>
+    <p class="push-1-2">{{include.details}}</p>
+    <div class="push-1-2 center-content">
+    {% pattern buttons/basic title="Learn More" %}
+    </div>
   </div>
 </div>

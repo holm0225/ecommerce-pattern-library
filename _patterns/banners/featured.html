@@ -1,8 +1,18 @@
-<div>
-<img class="banner featured absolute" src="/images/banners/banner-1.jpg" alt="">
-  <div class="relative island">
-    <h1 class="nina">Shell Yeah!</h1>
-    <p>Check out these awesome shells yo!</p>
-    {% pattern buttons/ghost text="Get this Clam" %}
+<section class="featured-banner chop relative push">
+  <div class="featured-image embed embed-3by1">
+    <img class="img-flex embed-item" src="/images/banners/{{include.image}}" alt="">
+  </div>
+
+  <div class="featured-content island center-text">
+    <div class="wrapper gutter-1-2 pad-t pad-b">
+      <div>
+        <h1 class="nina push-0 pad-b-1-2">{{include.title}}</h1>
+        <p class="mega push-0 pad-b-1-2">{{include.details}}</p>
+      </div>
+
+      <div class="pad-t push">
+      {% pattern buttons/ghost title="Check out the clams!" image="icons.svg#shell-icon" %}
+    </div>
   </div>
 </div>
+</section>

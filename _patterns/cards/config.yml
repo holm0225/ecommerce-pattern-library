@@ -8,7 +8,6 @@ patterns:
     description: |
       The basic card is used in most situations.
     padding: 2em
-    width: 400
     fields:
       - name: image
         type: image
@@ -28,7 +27,6 @@ patterns:
     description: |
       The featured card is used for popular products or products that are on sale.
     padding: 2em
-    width: 500
     fields:
       - name: image
         type: image
@@ -47,7 +45,6 @@ patterns:
     title: "Icon"
     description: |
       The icon card is used in special situations, possibly as headers for following cards.
-    width: 400
     fields:
       - name: title
         type: string
@@ -61,7 +58,6 @@ patterns:
     description: |
       The product card is used to display most products using a grid system.
     padding: 2em
-    width: 400
     fields:
       - name: image
         type: image
@@ -81,7 +77,6 @@ patterns:
     description: |
       The related card is used for displaying related products.
     padding: 2em
-    width: 400
     fields:
       - name: image
         type: image

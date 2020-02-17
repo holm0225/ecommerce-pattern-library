@@ -16,24 +16,17 @@ patterns:
     title: "Ghost"
     description: |
       The ghost button is specifically for banners, where it will be placed in front of busy images.
+    width: "12em"
     background: "--color-primary-light"
     fields:
       - name: text
         type: string
         example: "Get this Clam"
-  basic-cart:
-    title: "Basic-cart"
-    description: |
-      This button is specifically for the add-to-cart button feature.
-    background: "--color-primary-light"
-    fields:
-      - name: text
-        type: string
-        example: "Add to cart"
   borderless:
     title: "Borderless"
     description: |
       This button is a basic button with no borders.
+    width: "12em"
     background: "--color-primary-light"
     fields:
       - name: text
@@ -43,33 +36,17 @@ patterns:
     title: "Dark"
     description: |
       This button is dark and used with lighter backgrounds.
+    width: "12em"
     background: "--color-primary-light"
     fields:
       - name: text
         type: string
         example: "Get this Clam"
-  ghost-cart:
-    title: "Ghost-cart"
-    description: |
-      This button is specifically for the add-to-cart button feature when placed over an image.
-    background: "--color-primary-light"
-    fields:
-      - name: text
-        type: string
-        example: "Add to cart"
   light:
     title: "Light"
     description: |
       This button is light and used with darker backgrounds.
-    background: "--color-primary-light"
-    fields:
-      - name: text
-        type: string
-        example: "Get this Clam"
-  shell:
-    title: "Shell"
-    description: |
-      This is the shell icon button and used in special places.
+    width: "12em"
     background: "--color-primary-light"
     fields:
       - name: text
@@ -79,8 +56,22 @@ patterns:
     title: "Special"
     description: |
       The special button is used in special places, usually for contrast or special actions.
+    width: "12em"
     background: "--color-primary-light"
     fields:
       - name: text
         type: string
         example: "Get this Clam"
+  icon:
+    title: "Icon"
+    description: |
+      Basic icon button.
+    width: "12em"
+    background: "--color-primary-light"
+    fields:
+      - name: title
+        type: string
+        example: "Add To Cart"
+      - name: image
+        type: image
+        example: "icons.svg#cart-icon"

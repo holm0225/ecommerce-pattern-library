@@ -1,11 +1,11 @@
 <div class="card card-related chop">
-  <div class="island-1-2">
-    <h2>{{include.title}}</h2>
-  </div>
-  <img class="img-flex" src="/images/shells/{{include.image}}" alt="">
-  <p>{{include.details}}</p>
-  <p>{{include.price}}</p>
-  <div class="island-1-2">
-    {% pattern buttons/basic text=include.button_text %}
-  </div>
+  <a class="block crop" href="{{include.url}}">
+    <div class="embed embed-3by2">
+      <img class="img-flex embed-item" src="/images/shells/{{include.image}}" alt="">
+    </div>
+
+    <div class="category-title gutter pad-t-1-2 pad-b-1-2 center-text">
+      <h2 class="tera push-0">{{include.title}}</h2>
+    </div>
+  </a>
 </div>

@@ -1,0 +1,42 @@
+title: "Forms"
+description: |
+  Forms are used for submitting information.
+patterns:
+  boolean:
+    title: "Boolean"
+    description: |
+      This is the basic boolean form field. True or False.
+    width: 38em
+    fields:
+      - name: title
+        type: string
+        example: "yes"
+      - name: title
+        type: string
+        example: "no"
+
+  dropdown:
+    title: "Dropdown"
+    description: |
+      This is the basic dropdown form field.
+    width: 38em
+    fields:
+      - name: title
+        type: string
+        example: "Option 1"
+      - name: id
+        type: string
+        example: "Option 2"
+
+  string:
+    title: "String"
+    description: |
+      This is the basic information form field.
+    width: 38em
+    fields:
+      - name: title
+        type: string
+        example: "First Name"
+      - name: id
+        type: string
+        example: "Last Name"
