@@ -1,0 +1,13 @@
+title: "Navigations"
+description: |
+  Navigations are used for navigating the website easily.
+
+patterns:
+  breadcrumbs:
+    title: "Breadcrumbs"
+    description: |
+      Breadcombs serve to show you where you are on the site and where you came from.
+  sidenav:
+    title: "Sidenav"
+    description: |
+      The side nav is used to select product categories on the main page.

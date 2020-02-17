@@ -1,0 +1,14 @@
+.breadcrumbs a {
+  font-family: var(--font-secondary);
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  color: var(--color-primary);
+}
+
+.current {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+}
