@@ -1,0 +1,8 @@
+title: "Header"
+description: |
+  The header used for all pages.
+patterns:
+  header:
+    title: "Header"
+    description: |
+      The header used for all pages containing the navigation.
