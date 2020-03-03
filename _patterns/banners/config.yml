@@ -17,6 +17,13 @@ patterns:
       - name: image
         type: image
         example: "banner-6.jpg"
+      - name: button_text
+        type: string
+        example: "See collection"
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false
   featured:
     title: "Featured"
     description: |

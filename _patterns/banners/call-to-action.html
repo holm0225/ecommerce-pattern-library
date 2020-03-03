@@ -11,7 +11,9 @@
       </div>
 
       <div class="pad-t push">
-        {% pattern buttons/icon title="Add To Cart" image="icons.svg#cart-icon" %}
+        {% if include.button_url %}
+          {% pattern buttons/light url=include.button_url text=include.button_text %}
+        {% endif %}
     </div>
   </div>
 </div>

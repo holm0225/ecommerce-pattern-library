@@ -52,6 +52,9 @@ patterns:
       - name: text
         type: string
         example: "Get this Clam"
+      - name: url
+        type: url
+        example: "/products/"
   special:
     title: "Special"
     description: |
