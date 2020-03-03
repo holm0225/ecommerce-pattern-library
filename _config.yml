@@ -20,3 +20,7 @@ patternbot:
       The primary colors represent ocean life and water using teal. It is easy on the eyes and calming to create a more serene shopping experience.
     colors.secondary: |
       The secondary colors are lighter and more neutral to accent the primary colors. These are mostly lighter shades of teal, beige, blue, and orange for more contrast.
+
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the website's primary header and footer.
