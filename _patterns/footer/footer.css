@@ -1,0 +1,8 @@
+footer {
+  background-color: var(--color-third-light);
+  color: var(--color-primary);
+}
+
+.social {
+  color: var(--color-primary);
+}
