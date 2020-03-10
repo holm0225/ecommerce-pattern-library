@@ -41,21 +41,6 @@ patterns:
         type: value
         example: "$12.99"
 
-  icon:
-    title: "Icon"
-    description: |
-      The icon card is used in special situations, possibly as headers for following cards.
-    fields:
-      - name: title
-        type: string
-        example: "Shells!"
-      - name: details
-        type: string
-        example: "Fan Shells"
-      - name: image
-        type: image
-        example: "icons.svg#shell-fan-icon"
-
   products:
     title: "Products"
     description: |
