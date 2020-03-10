@@ -1,6 +1,6 @@
 ---
-name: "conch shell"
-description: |
+title: "conch shell"
+details: |
   The most beautiful shell in existence. Also lets you hear the ocean from anywhere.
 image: "/images/shells/conch.jpg"
 price: 12.99

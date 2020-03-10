@@ -1,6 +1,6 @@
 ---
-name: "basket of shells"
-description: |
+title: "basket of shells"
+details: |
   A beautiful basket of assorted beautiful spiral shells.
 image: "/images/shells/shell-basket.jpg"
 price: 39.99

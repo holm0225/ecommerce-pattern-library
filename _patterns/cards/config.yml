@@ -21,6 +21,11 @@ patterns:
       - name: price
         type: value
         example: "$12.99"
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: product
 
   featured:
     title: "Featured"
@@ -59,6 +64,11 @@ patterns:
       - name: price
         type: value
         example: "$12.99"
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: product
 
   related:
     title: "Related"

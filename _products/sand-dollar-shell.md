@@ -1,6 +1,6 @@
 ---
-name: "sand dollar shell"
-description: |
+title: "sand dollar shell"
+details: |
   A dollar made of sand! or something...
 image: "/images/shells/sand-dollar-2.jpg"
 price: 5.99
