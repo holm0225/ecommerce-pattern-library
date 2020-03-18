@@ -3,4 +3,34 @@ layout: default
 highlight_nav: home
 ---
 
-{% pattern banners/call-to-action button_text="See collection" button_url="/products/" title="SHELLS SHELLS SHELLS!" details="Shellllllllllllllllssssssssss" image="banner-6.jpg" %}
+<main id="main" role="main" tabindex="0">
+
+  <section>
+    {% pattern banners/call-to-action button_text="See collection" button_url="/products/" title="Our Shells Are The Bomb!" details="You looking for that perfect shell to round off your collection? You've come to the right place." image="banner-6.jpg" %}
+  </section>
+
+  <section class="grid push">
+    <div class="unit xs-1 text-center">
+      <h2 class="push">Products</h2>
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-3 island-1-2">
+      {% pattern cards/products image="conch.jpg" title="Conch Shell" details="The coveted conch... omg." price="$12.99" data=product %}
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-3 island-1-2">
+      {% pattern cards/products image="conch.jpg" title="Conch Shell" details="The coveted conch... omg." price="$12.99" data=product %}
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-3 island-1-2">
+      {% pattern cards/products image="conch.jpg" title="Conch Shell" details="The coveted conch... omg." price="$12.99" data=product %}
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-3 island-1-2">
+      {% pattern cards/products image="conch.jpg" title="Conch Shell" details="The coveted conch... omg." price="$12.99" data=product %}
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-3 island-1-2">
+      {% pattern cards/products image="conch.jpg" title="Conch Shell" details="The coveted conch... omg." price="$12.99" data=product %}
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-3 island-1-2">
+      {% pattern cards/products image="conch.jpg" title="Conch Shell" details="The coveted conch... omg." price="$12.99" data=product %}
+    </div>
+  </section>
+
+</main>
