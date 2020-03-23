@@ -41,4 +41,4 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 
 <hr>
 
-##### Copyright ©Shelly co.©
+##### Copyright ©Shelly co.
