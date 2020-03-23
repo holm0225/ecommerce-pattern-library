@@ -1,3 +1,11 @@
+# Shelly e-commerce pattern library
+
+The project is to create a pattern library for a fictional shell company called Shelly.
+
+The brand was created based on the dire need for more shell selling websites. People need shells in their homes, cars, aquariums, accessories, bicycles, and so on and Shelly is just the company to deliver the goods. The colours are inspired by the ocean and the logo is a shell for obvious reasons. The design is minimal and to the point so customers are not confused or mislead. This all serves to create a superb atmosphere that is sure to boost sales and ensure a record year for this amazing brand.
+
+<hr>
+
 ## Installation
 
 The pattern library is a Jekyll & Patternbot based application, so it requires Ruby to be installed.
@@ -17,3 +25,20 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 2. Type the following command: `bundle exec jekyll serve`
 3. View the functional website at: [http://localhost:4000](http://localhost:4000)
 4. View the pattern library at: [http://localhost:4000/pattern-library/](http://localhost:4000/pattern-library/)
+
+<hr>
+
+## Helpful links
+
+- [netlify](https://hungry-kirch-f110e1.netlify.com/pattern-library/#brand)
+- [ux design](https://projects.invisionapp.com/boards/AC3Y91GM7DQ/)
+
+<hr>
+
+## Collaborators
+
+- [@thomasjbradley](https://github.com/thomasjbradley)
+
+<hr>
+
+##### Copyright ©Shelly co.©
