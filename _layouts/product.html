@@ -2,6 +2,16 @@
 layout: default
 ---
 
-<h1>{{page.name}}</h1>
-<p>{{page.description}}</p>
-<img src="{{page.image}}" alt="">
+<main id="main" role="main" tabindex="0">
+
+<section class="unit xs-1 micro">
+  {% pattern navigations/breadcrumbs %}
+</section>
+
+<section class="grid push"
+  <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 push">
+      {% pattern cards/products data=product %}
+    </div>
+</section>
+
+</main>
